@@ -139,8 +139,21 @@
 		C3813D3C1832058500C7A35E /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = C3813D3B1832058500C7A35E /* vec4.c */; };
 		C3813D411832058500C7A35E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D401832058500C7A35E /* main.m */; };
 		C3813D441832058500C7A35E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D431832058500C7A35E /* AppDelegate.m */; };
-		C3813D471832058500C7A35E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D461832058500C7A35E /* HelloWorldLayer.m */; };
 		C3813D4A1832058500C7A35E /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D491832058500C7A35E /* IntroLayer.m */; };
+		C3813D531832065F00C7A35E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D521832065F00C7A35E /* Player.m */; };
+		C3813D5A1832067F00C7A35E /* Layer0_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D561832067F00C7A35E /* Layer0_2.png */; };
+		C3813D5B1832067F00C7A35E /* Layer1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D571832067F00C7A35E /* Layer1_2.png */; };
+		C3813D5C1832067F00C7A35E /* Layer2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D581832067F00C7A35E /* Layer2_2.png */; };
+		C3813D66183206A400C7A35E /* PlayerIdle.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D5D183206A400C7A35E /* PlayerIdle.png */; };
+		C3813D67183206A400C7A35E /* PlayerJumpLR.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3813D5E183206A400C7A35E /* PlayerJumpLR.plist */; };
+		C3813D68183206A400C7A35E /* PlayerJumpLR.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D5F183206A400C7A35E /* PlayerJumpLR.png */; };
+		C3813D69183206A400C7A35E /* PlayerJumpRL.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3813D60183206A400C7A35E /* PlayerJumpRL.plist */; };
+		C3813D6A183206A400C7A35E /* PlayerJumpRL.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D61183206A400C7A35E /* PlayerJumpRL.png */; };
+		C3813D6B183206A400C7A35E /* PlayerRunLR.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3813D62183206A400C7A35E /* PlayerRunLR.plist */; };
+		C3813D6C183206A400C7A35E /* PlayerRunLR.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D63183206A400C7A35E /* PlayerRunLR.png */; };
+		C3813D6D183206A400C7A35E /* PlayerRunRL.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3813D64183206A400C7A35E /* PlayerRunRL.plist */; };
+		C3813D6E183206A400C7A35E /* PlayerRunRL.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D65183206A400C7A35E /* PlayerRunRL.png */; };
+		C3813D71183206CF00C7A35E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D70183206CF00C7A35E /* HelloWorldLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -421,10 +434,24 @@
 		C3813D401832058500C7A35E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3813D421832058500C7A35E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3813D431832058500C7A35E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3813D451832058500C7A35E /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		C3813D461832058500C7A35E /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		C3813D481832058500C7A35E /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		C3813D491832058500C7A35E /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		C3813D511832065F00C7A35E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		C3813D521832065F00C7A35E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		C3813D561832067F00C7A35E /* Layer0_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Layer0_2.png; sourceTree = "<group>"; };
+		C3813D571832067F00C7A35E /* Layer1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Layer1_2.png; sourceTree = "<group>"; };
+		C3813D581832067F00C7A35E /* Layer2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Layer2_2.png; sourceTree = "<group>"; };
+		C3813D5D183206A400C7A35E /* PlayerIdle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerIdle.png; sourceTree = "<group>"; };
+		C3813D5E183206A400C7A35E /* PlayerJumpLR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerJumpLR.plist; sourceTree = "<group>"; };
+		C3813D5F183206A400C7A35E /* PlayerJumpLR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerJumpLR.png; sourceTree = "<group>"; };
+		C3813D60183206A400C7A35E /* PlayerJumpRL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerJumpRL.plist; sourceTree = "<group>"; };
+		C3813D61183206A400C7A35E /* PlayerJumpRL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerJumpRL.png; sourceTree = "<group>"; };
+		C3813D62183206A400C7A35E /* PlayerRunLR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerRunLR.plist; sourceTree = "<group>"; };
+		C3813D63183206A400C7A35E /* PlayerRunLR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRunLR.png; sourceTree = "<group>"; };
+		C3813D64183206A400C7A35E /* PlayerRunRL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerRunRL.plist; sourceTree = "<group>"; };
+		C3813D65183206A400C7A35E /* PlayerRunRL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRunRL.png; sourceTree = "<group>"; };
+		C3813D6F183206CF00C7A35E /* HelloWorldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
+		C3813D70183206CF00C7A35E /* HelloWorldLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,10 +512,11 @@
 		C3813BB11832058200C7A35E /* BlockGameX5.1 */ = {
 			isa = PBXGroup;
 			children = (
+				C3813D501832065F00C7A35E /* Game Object */,
 				C3813D421832058500C7A35E /* AppDelegate.h */,
+				C3813D6F183206CF00C7A35E /* HelloWorldLayer.h */,
+				C3813D70183206CF00C7A35E /* HelloWorldLayer.m */,
 				C3813D431832058500C7A35E /* AppDelegate.m */,
-				C3813D451832058500C7A35E /* HelloWorldLayer.h */,
-				C3813D461832058500C7A35E /* HelloWorldLayer.m */,
 				C3813D481832058500C7A35E /* IntroLayer.h */,
 				C3813D491832058500C7A35E /* IntroLayer.m */,
 				C3813BB21832058200C7A35E /* Resources */,
@@ -501,6 +529,7 @@
 		C3813BB21832058200C7A35E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C3813D541832067F00C7A35E /* Game Resources */,
 				C3813BB31832058200C7A35E /* Default.png */,
 				C3813BB51832058200C7A35E /* Default@2x.png */,
 				C3813BB71832058200C7A35E /* Default-568h@2x.png */,
@@ -879,6 +908,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3813D501832065F00C7A35E /* Game Object */ = {
+			isa = PBXGroup;
+			children = (
+				C3813D511832065F00C7A35E /* Player.h */,
+				C3813D521832065F00C7A35E /* Player.m */,
+			);
+			path = "Game Object";
+			sourceTree = "<group>";
+		};
+		C3813D541832067F00C7A35E /* Game Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3813D551832067F00C7A35E /* Back Grounds */,
+				C3813D591832067F00C7A35E /* Player */,
+			);
+			name = "Game Resources";
+			path = "Resources/Game Resources";
+			sourceTree = "<group>";
+		};
+		C3813D551832067F00C7A35E /* Back Grounds */ = {
+			isa = PBXGroup;
+			children = (
+				C3813D561832067F00C7A35E /* Layer0_2.png */,
+				C3813D571832067F00C7A35E /* Layer1_2.png */,
+				C3813D581832067F00C7A35E /* Layer2_2.png */,
+			);
+			path = "Back Grounds";
+			sourceTree = "<group>";
+		};
+		C3813D591832067F00C7A35E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				C3813D5D183206A400C7A35E /* PlayerIdle.png */,
+				C3813D5E183206A400C7A35E /* PlayerJumpLR.plist */,
+				C3813D5F183206A400C7A35E /* PlayerJumpLR.png */,
+				C3813D60183206A400C7A35E /* PlayerJumpRL.plist */,
+				C3813D61183206A400C7A35E /* PlayerJumpRL.png */,
+				C3813D62183206A400C7A35E /* PlayerRunLR.plist */,
+				C3813D63183206A400C7A35E /* PlayerRunLR.png */,
+				C3813D64183206A400C7A35E /* PlayerRunRL.plist */,
+				C3813D65183206A400C7A35E /* PlayerRunRL.png */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -932,15 +1006,27 @@
 			files = (
 				C3813BC41832058200C7A35E /* Icon.png in Resources */,
 				C3813D221832058500C7A35E /* ChangeLog in Resources */,
+				C3813D68183206A400C7A35E /* PlayerJumpLR.png in Resources */,
+				C3813D5C1832067F00C7A35E /* Layer2_2.png in Resources */,
 				C3813BB61832058200C7A35E /* Default@2x.png in Resources */,
 				C3813BC01832058200C7A35E /* Icon-Small.png in Resources */,
+				C3813D6A183206A400C7A35E /* PlayerJumpRL.png in Resources */,
 				C3813BBC1832058200C7A35E /* Icon-72.png in Resources */,
 				C3813BB41832058200C7A35E /* Default.png in Resources */,
 				C3813BBE1832058200C7A35E /* Icon-Small-50.png in Resources */,
+				C3813D6E183206A400C7A35E /* PlayerRunRL.png in Resources */,
 				C3813BC91832058200C7A35E /* iTunesArtwork in Resources */,
+				C3813D5A1832067F00C7A35E /* Layer0_2.png in Resources */,
 				C3813BC21832058200C7A35E /* Icon-Small@2x.png in Resources */,
+				C3813D69183206A400C7A35E /* PlayerJumpRL.plist in Resources */,
+				C3813D5B1832067F00C7A35E /* Layer1_2.png in Resources */,
+				C3813D66183206A400C7A35E /* PlayerIdle.png in Resources */,
+				C3813D6D183206A400C7A35E /* PlayerRunRL.plist in Resources */,
 				C3813BBA1832058200C7A35E /* Default-Landscape~ipad.png in Resources */,
+				C3813D67183206A400C7A35E /* PlayerJumpLR.plist in Resources */,
+				C3813D6C183206A400C7A35E /* PlayerRunLR.png in Resources */,
 				C3813BB81832058200C7A35E /* Default-568h@2x.png in Resources */,
+				C3813D6B183206A400C7A35E /* PlayerRunLR.plist in Resources */,
 				C3813BC61832058200C7A35E /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -987,6 +1073,7 @@
 				C3813CE81832058400C7A35E /* NSThread+performBlock.m in Sources */,
 				C3813BEF1832058300C7A35E /* CCActionTiledGrid.m in Sources */,
 				C3813C361832058300C7A35E /* CCMenuItem.m in Sources */,
+				C3813D531832065F00C7A35E /* Player.m in Sources */,
 				C3813BD11832058300C7A35E /* CCActionCamera.m in Sources */,
 				C3813D031832058400C7A35E /* CDXPropertyModifierAction.m in Sources */,
 				C3813CD31832058400C7A35E /* CCArray.m in Sources */,
@@ -1021,6 +1108,7 @@
 				C3813C391832058300C7A35E /* CCMotionStreak.m in Sources */,
 				C3813CB81832058400C7A35E /* CCGLView.m in Sources */,
 				C3813CE51832058400C7A35E /* CGPointExtension.m in Sources */,
+				C3813D71183206CF00C7A35E /* HelloWorldLayer.m in Sources */,
 				C3813BE91832058300C7A35E /* CCActionPageTurn3D.m in Sources */,
 				C3813D3A1832058500C7A35E /* vec3.c in Sources */,
 				C3813CEC1832058400C7A35E /* TGAlib.m in Sources */,
@@ -1045,7 +1133,6 @@
 				C3813D281832058500C7A35E /* matrix.c in Sources */,
 				C3813C0E1832058300C7A35E /* CCDrawingPrimitives.m in Sources */,
 				C3813C761832058400C7A35E /* ccShaders.m in Sources */,
-				C3813D471832058500C7A35E /* HelloWorldLayer.m in Sources */,
 				C3813CCC1832058400C7A35E /* CCWindow.m in Sources */,
 				C3813CAA1832058400C7A35E /* cocos2d.m in Sources */,
 				C3813C571832058400C7A35E /* CCProgressTimer.m in Sources */,

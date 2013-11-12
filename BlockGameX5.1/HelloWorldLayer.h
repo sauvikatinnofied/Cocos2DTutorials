@@ -1,8 +1,8 @@
 //
 //  HelloWorldLayer.h
-//  BlockGameX5.1
+//  BlockGame1.0
 //
-//  Created by Sandip Saha on 12/11/13.
+//  Created by Sandip Saha on 07/11/13.
 //  Copyright Sandip Saha 2013. All rights reserved.
 //
 
@@ -13,8 +13,9 @@
 #import "cocos2d.h"
 
 // HelloWorldLayer
-@interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
+@interface HelloWorldLayer : CCLayer 
 {
+    
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
