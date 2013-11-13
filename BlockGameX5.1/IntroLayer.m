@@ -10,6 +10,7 @@
 // Import the interfaces
 #import "IntroLayer.h"
 #import "HelloWorldLayer.h"
+#import "MenuLayer.h"
 
 
 #pragma mark - IntroLayer
@@ -20,7 +21,9 @@
 // Helper class method that creates a Scene with the HelloWorldLayer as the only child.
 +(CCScene *) scene
 {
-	// 'scene' is an autorelease object.
+	
+    printf("\nIntrolayer scene() called");
+    // 'scene' is an autorelease object.
 	CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
@@ -38,6 +41,7 @@
 {
 	if( (self=[super init])) {
 
+        printf("\nIntrolayer init() called");
 		// ask director for the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
 
@@ -61,6 +65,15 @@
 -(void) onEnter
 {
 	[super onEnter];
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] ]];
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:0.10
+                                                                                         scene:[MenuLayer scene]]];
+    
+    
+}
+-(void)dealloc
+{
+    
+    CCLOG(@"\n%@: %@", NSStringFromSelector(_cmd), self);
+    [super dealloc];
 }
 @end

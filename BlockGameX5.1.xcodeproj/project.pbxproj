@@ -154,6 +154,29 @@
 		C3813D6D183206A400C7A35E /* PlayerRunRL.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3813D64183206A400C7A35E /* PlayerRunRL.plist */; };
 		C3813D6E183206A400C7A35E /* PlayerRunRL.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D65183206A400C7A35E /* PlayerRunRL.png */; };
 		C3813D71183206CF00C7A35E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D70183206CF00C7A35E /* HelloWorldLayer.m */; };
+		C3813D741832263800C7A35E /* HelloWorldBackGround.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D731832263800C7A35E /* HelloWorldBackGround.m */; };
+		C3813D7A183246BD00C7A35E /* MenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D79183246BC00C7A35E /* MenuLayer.m */; };
+		C3813D8E1832492200C7A35E /* splashMonsterRed.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D7C1832492200C7A35E /* splashMonsterRed.png */; };
+		C3813D8F1832492200C7A35E /* backgroundMonsters2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D7D1832492200C7A35E /* backgroundMonsters2.png */; };
+		C3813D901832492200C7A35E /* splashMonsterGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D7E1832492200C7A35E /* splashMonsterGreen.png */; };
+		C3813D911832492200C7A35E /* splashMonsterBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D7F1832492200C7A35E /* splashMonsterBlue.png */; };
+		C3813D921832492200C7A35E /* monsterRed.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D801832492200C7A35E /* monsterRed.png */; };
+		C3813D931832492200C7A35E /* monsterBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D811832492200C7A35E /* monsterBlue.png */; };
+		C3813D941832492200C7A35E /* monsterGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D821832492200C7A35E /* monsterGreen.png */; };
+		C3813D951832492200C7A35E /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D831832492200C7A35E /* pauseButton.png */; };
+		C3813D961832492200C7A35E /* soundOffSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D841832492200C7A35E /* soundOffSelected.png */; };
+		C3813D971832492200C7A35E /* soundOnSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D851832492200C7A35E /* soundOnSelected.png */; };
+		C3813D981832492200C7A35E /* playButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D861832492200C7A35E /* playButtonSelected.png */; };
+		C3813D991832492200C7A35E /* soundOn.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D871832492200C7A35E /* soundOn.png */; };
+		C3813D9A1832492200C7A35E /* soundOff.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D881832492200C7A35E /* soundOff.png */; };
+		C3813D9B1832492200C7A35E /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D891832492200C7A35E /* playButton.png */; };
+		C3813D9C1832492200C7A35E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D8A1832492200C7A35E /* background.png */; };
+		C3813D9D1832492200C7A35E /* MonsterSmashing.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D8B1832492200C7A35E /* MonsterSmashing.png */; };
+		C3813D9E1832492200C7A35E /* hearth.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D8C1832492200C7A35E /* hearth.png */; };
+		C3813D9F1832492200C7A35E /* WoodRetroApple_iPad_HomeScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3813D8D1832492200C7A35E /* WoodRetroApple_iPad_HomeScreen.jpg */; };
+		C3813DA118324E5B00C7A35E /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3813DA018324E5B00C7A35E /* Music.mp3 */; };
+		C3813DA418324EA700C7A35E /* ExitReached.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3813DA318324EA700C7A35E /* ExitReached.mp3 */; };
+		C3813DA71832620200C7A35E /* YellowGem.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813DA61832620200C7A35E /* YellowGem.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -452,6 +475,31 @@
 		C3813D65183206A400C7A35E /* PlayerRunRL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRunRL.png; sourceTree = "<group>"; };
 		C3813D6F183206CF00C7A35E /* HelloWorldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		C3813D70183206CF00C7A35E /* HelloWorldLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		C3813D721832263800C7A35E /* HelloWorldBackGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldBackGround.h; sourceTree = "<group>"; };
+		C3813D731832263800C7A35E /* HelloWorldBackGround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldBackGround.m; sourceTree = "<group>"; };
+		C3813D78183246BC00C7A35E /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
+		C3813D79183246BC00C7A35E /* MenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuLayer.m; sourceTree = "<group>"; };
+		C3813D7C1832492200C7A35E /* splashMonsterRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashMonsterRed.png; sourceTree = "<group>"; };
+		C3813D7D1832492200C7A35E /* backgroundMonsters2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundMonsters2.png; sourceTree = "<group>"; };
+		C3813D7E1832492200C7A35E /* splashMonsterGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashMonsterGreen.png; sourceTree = "<group>"; };
+		C3813D7F1832492200C7A35E /* splashMonsterBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashMonsterBlue.png; sourceTree = "<group>"; };
+		C3813D801832492200C7A35E /* monsterRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsterRed.png; sourceTree = "<group>"; };
+		C3813D811832492200C7A35E /* monsterBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsterBlue.png; sourceTree = "<group>"; };
+		C3813D821832492200C7A35E /* monsterGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsterGreen.png; sourceTree = "<group>"; };
+		C3813D831832492200C7A35E /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		C3813D841832492200C7A35E /* soundOffSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundOffSelected.png; sourceTree = "<group>"; };
+		C3813D851832492200C7A35E /* soundOnSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundOnSelected.png; sourceTree = "<group>"; };
+		C3813D861832492200C7A35E /* playButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButtonSelected.png; sourceTree = "<group>"; };
+		C3813D871832492200C7A35E /* soundOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundOn.png; sourceTree = "<group>"; };
+		C3813D881832492200C7A35E /* soundOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundOff.png; sourceTree = "<group>"; };
+		C3813D891832492200C7A35E /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		C3813D8A1832492200C7A35E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		C3813D8B1832492200C7A35E /* MonsterSmashing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonsterSmashing.png; sourceTree = "<group>"; };
+		C3813D8C1832492200C7A35E /* hearth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hearth.png; sourceTree = "<group>"; };
+		C3813D8D1832492200C7A35E /* WoodRetroApple_iPad_HomeScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodRetroApple_iPad_HomeScreen.jpg; sourceTree = "<group>"; };
+		C3813DA018324E5B00C7A35E /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
+		C3813DA318324EA700C7A35E /* ExitReached.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ExitReached.mp3; sourceTree = "<group>"; };
+		C3813DA61832620200C7A35E /* YellowGem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowGem.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,13 +560,17 @@
 		C3813BB11832058200C7A35E /* BlockGameX5.1 */ = {
 			isa = PBXGroup;
 			children = (
+				C3813D78183246BC00C7A35E /* MenuLayer.h */,
+				C3813D79183246BC00C7A35E /* MenuLayer.m */,
 				C3813D501832065F00C7A35E /* Game Object */,
 				C3813D421832058500C7A35E /* AppDelegate.h */,
+				C3813D431832058500C7A35E /* AppDelegate.m */,
 				C3813D6F183206CF00C7A35E /* HelloWorldLayer.h */,
 				C3813D70183206CF00C7A35E /* HelloWorldLayer.m */,
-				C3813D431832058500C7A35E /* AppDelegate.m */,
 				C3813D481832058500C7A35E /* IntroLayer.h */,
 				C3813D491832058500C7A35E /* IntroLayer.m */,
+				C3813D721832263800C7A35E /* HelloWorldBackGround.h */,
+				C3813D731832263800C7A35E /* HelloWorldBackGround.m */,
 				C3813BB21832058200C7A35E /* Resources */,
 				C3813BCA1832058200C7A35E /* libs */,
 				C3813D3E1832058500C7A35E /* Supporting Files */,
@@ -529,6 +581,9 @@
 		C3813BB21832058200C7A35E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C3813DA5183261F500C7A35E /* Others */,
+				C3813DA218324E6000C7A35E /* Game Music */,
+				C3813D7B183248F200C7A35E /* Menu Layer Resources */,
 				C3813D541832067F00C7A35E /* Game Resources */,
 				C3813BB31832058200C7A35E /* Default.png */,
 				C3813BB51832058200C7A35E /* Default@2x.png */,
@@ -953,6 +1008,48 @@
 			path = Player;
 			sourceTree = "<group>";
 		};
+		C3813D7B183248F200C7A35E /* Menu Layer Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3813D7C1832492200C7A35E /* splashMonsterRed.png */,
+				C3813D7D1832492200C7A35E /* backgroundMonsters2.png */,
+				C3813D7E1832492200C7A35E /* splashMonsterGreen.png */,
+				C3813D7F1832492200C7A35E /* splashMonsterBlue.png */,
+				C3813D801832492200C7A35E /* monsterRed.png */,
+				C3813D811832492200C7A35E /* monsterBlue.png */,
+				C3813D821832492200C7A35E /* monsterGreen.png */,
+				C3813D831832492200C7A35E /* pauseButton.png */,
+				C3813D841832492200C7A35E /* soundOffSelected.png */,
+				C3813D851832492200C7A35E /* soundOnSelected.png */,
+				C3813D861832492200C7A35E /* playButtonSelected.png */,
+				C3813D871832492200C7A35E /* soundOn.png */,
+				C3813D881832492200C7A35E /* soundOff.png */,
+				C3813D891832492200C7A35E /* playButton.png */,
+				C3813D8A1832492200C7A35E /* background.png */,
+				C3813D8B1832492200C7A35E /* MonsterSmashing.png */,
+				C3813D8C1832492200C7A35E /* hearth.png */,
+				C3813D8D1832492200C7A35E /* WoodRetroApple_iPad_HomeScreen.jpg */,
+			);
+			name = "Menu Layer Resources";
+			sourceTree = "<group>";
+		};
+		C3813DA218324E6000C7A35E /* Game Music */ = {
+			isa = PBXGroup;
+			children = (
+				C3813DA318324EA700C7A35E /* ExitReached.mp3 */,
+				C3813DA018324E5B00C7A35E /* Music.mp3 */,
+			);
+			name = "Game Music";
+			sourceTree = "<group>";
+		};
+		C3813DA5183261F500C7A35E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C3813DA61832620200C7A35E /* YellowGem.png */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1005,7 +1102,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3813BC41832058200C7A35E /* Icon.png in Resources */,
+				C3813DA71832620200C7A35E /* YellowGem.png in Resources */,
+				C3813D901832492200C7A35E /* splashMonsterGreen.png in Resources */,
 				C3813D221832058500C7A35E /* ChangeLog in Resources */,
+				C3813D9B1832492200C7A35E /* playButton.png in Resources */,
 				C3813D68183206A400C7A35E /* PlayerJumpLR.png in Resources */,
 				C3813D5C1832067F00C7A35E /* Layer2_2.png in Resources */,
 				C3813BB61832058200C7A35E /* Default@2x.png in Resources */,
@@ -1013,21 +1113,39 @@
 				C3813D6A183206A400C7A35E /* PlayerJumpRL.png in Resources */,
 				C3813BBC1832058200C7A35E /* Icon-72.png in Resources */,
 				C3813BB41832058200C7A35E /* Default.png in Resources */,
+				C3813DA418324EA700C7A35E /* ExitReached.mp3 in Resources */,
+				C3813D9F1832492200C7A35E /* WoodRetroApple_iPad_HomeScreen.jpg in Resources */,
 				C3813BBE1832058200C7A35E /* Icon-Small-50.png in Resources */,
+				C3813D981832492200C7A35E /* playButtonSelected.png in Resources */,
 				C3813D6E183206A400C7A35E /* PlayerRunRL.png in Resources */,
 				C3813BC91832058200C7A35E /* iTunesArtwork in Resources */,
+				C3813D971832492200C7A35E /* soundOnSelected.png in Resources */,
+				C3813D921832492200C7A35E /* monsterRed.png in Resources */,
 				C3813D5A1832067F00C7A35E /* Layer0_2.png in Resources */,
 				C3813BC21832058200C7A35E /* Icon-Small@2x.png in Resources */,
 				C3813D69183206A400C7A35E /* PlayerJumpRL.plist in Resources */,
+				C3813D961832492200C7A35E /* soundOffSelected.png in Resources */,
 				C3813D5B1832067F00C7A35E /* Layer1_2.png in Resources */,
 				C3813D66183206A400C7A35E /* PlayerIdle.png in Resources */,
+				C3813D941832492200C7A35E /* monsterGreen.png in Resources */,
+				C3813D8E1832492200C7A35E /* splashMonsterRed.png in Resources */,
+				C3813D931832492200C7A35E /* monsterBlue.png in Resources */,
 				C3813D6D183206A400C7A35E /* PlayerRunRL.plist in Resources */,
 				C3813BBA1832058200C7A35E /* Default-Landscape~ipad.png in Resources */,
+				C3813D9C1832492200C7A35E /* background.png in Resources */,
+				C3813D9E1832492200C7A35E /* hearth.png in Resources */,
+				C3813D9A1832492200C7A35E /* soundOff.png in Resources */,
 				C3813D67183206A400C7A35E /* PlayerJumpLR.plist in Resources */,
+				C3813D8F1832492200C7A35E /* backgroundMonsters2.png in Resources */,
+				C3813D9D1832492200C7A35E /* MonsterSmashing.png in Resources */,
 				C3813D6C183206A400C7A35E /* PlayerRunLR.png in Resources */,
 				C3813BB81832058200C7A35E /* Default-568h@2x.png in Resources */,
+				C3813D951832492200C7A35E /* pauseButton.png in Resources */,
+				C3813D991832492200C7A35E /* soundOn.png in Resources */,
 				C3813D6B183206A400C7A35E /* PlayerRunLR.plist in Resources */,
 				C3813BC61832058200C7A35E /* Icon@2x.png in Resources */,
+				C3813DA118324E5B00C7A35E /* Music.mp3 in Resources */,
+				C3813D911832492200C7A35E /* splashMonsterBlue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1051,6 +1169,7 @@
 				C3813C3C1832058300C7A35E /* CCNode+Debug.m in Sources */,
 				C3813C171832058300C7A35E /* ccFPSImages.m in Sources */,
 				C3813C9D1832058400C7A35E /* CCTMXXMLParser.m in Sources */,
+				C3813D741832263800C7A35E /* HelloWorldBackGround.m in Sources */,
 				C3813D341832058500C7A35E /* ray2.c in Sources */,
 				C3813CCF1832058400C7A35E /* base64.c in Sources */,
 				C3813BF21832058300C7A35E /* CCActionTween.m in Sources */,
@@ -1096,6 +1215,7 @@
 				C3813BCE1832058300C7A35E /* CCAction.m in Sources */,
 				C3813D061832058400C7A35E /* CocosDenshion.m in Sources */,
 				C3813C8B1832058400C7A35E /* CCTextureCache.m in Sources */,
+				C3813D7A183246BD00C7A35E /* MenuLayer.m in Sources */,
 				C3813D2E1832058500C7A35E /* neon_matrix_impl.c in Sources */,
 				C3813C5E1832058400C7A35E /* CCScene.m in Sources */,
 				C3813BDD1832058300C7A35E /* CCActionGrid3D.m in Sources */,

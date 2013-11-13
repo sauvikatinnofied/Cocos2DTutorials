@@ -10,6 +10,7 @@
 // Import the interfaces
 #import "HelloWorldLayer.h"
 #import "Player.h"
+#import "HelloWorldBackGround.h"
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
@@ -19,21 +20,31 @@
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
 
-//CCSprite  *player;
+
 NSMutableArray *jumpFrames;
 Player *player;
-
+BOOL gamePaused;
 
 
 // Helper class method that creates a Scene with the HelloWorldLayer as the only child.
 +(CCScene *) scene
 {
-	// 'scene' is an autorelease object.
-	CCScene *scene = [CCScene node];
 	
+    // 'scene' is an autorelease object.
+	CCScene *scene = [CCScene node];
+    
+    
+    //'adding the background'
+    HelloWorldBackGround *backGround=[HelloWorldBackGround node];
+    [scene addChild:backGround];
+	
+    
 	// 'layer' is an autorelease object.
 	HelloWorldLayer *layer = [HelloWorldLayer node];
-	
+    
+    
+    
+    
 	// add layer as a child to scene
 	[scene addChild: layer];
 	
@@ -57,21 +68,30 @@ Player *player;
         [[CCDirector sharedDirector].touchDispatcher addTargetedDelegate:self
                                                                 priority:INT_MIN+1
                                                          swallowsTouches:YES];
-        for(int i=0;i<3;i++)
-        {
-            NSString *file=[NSString stringWithFormat:@"Layer%d_2.png",i];
-            CCSprite *gameBackGround=[CCSprite spriteWithFile:file];
-            gameBackGround.position=CGPointMake(winSize.width/2, winSize.height/2);
-            gameBackGround.scaleX=winSize.width/gameBackGround.contentSize.width;
-            gameBackGround.scaleY=winSize.height/gameBackGround.contentSize.height;
-
-            [self addChild:gameBackGround];
-        }
+        
+        
+        CCLayer *backGround=[HelloWorldBackGround node];
+        [self addChild:backGround];
+        
         
         player=[[Player alloc]initAtPosition:ccp(winSize.width/2, winSize.height/2)];
         
         [self addChild:player];
         
+        [self scheduleOnce:@selector(pauseGame:) delay:10];
+       
+        CCSprite *followingSprite=[CCSprite spriteWithFile:@"YellowGem.png"];
+        followingSprite.position=ccp(player.position.x,player.position.y+30);
+        [self addChild:followingSprite];
+        
+        
+        
+        //CCFollow *followaction=[CCFollow actionWithTarget:player worldBoundary:CGRectMake(0, 0, winSize.width, winSize.height)];
+        //[followingSprite runAction:followaction];
+       
+        
+    
+       
         
         
 		
@@ -87,16 +107,23 @@ Player *player;
 {
    
     
-  
+    if(gamePaused)
+    {
+        [[CCDirector sharedDirector] resume];
+    }
+    else
+    {
+        
+    }
+    
+    
+    
     return TRUE;
     
 }
 
 -(void)ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event
 {
-    
-
-
     
    
     CGPoint touchPoint=[[CCDirector sharedDirector] convertTouchToGL:touch];
@@ -129,6 +156,36 @@ Player *player;
     
 }
 
+//this method will be called every time the accelerometer acceleartes
+
+-(void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
+{
+    
+}
+
+//Scheduler to Pause the game
+-(void)pauseGame:(ccTime)dt
+{
+    
+    [[CCDirector sharedDirector] pause];
+    gamePaused=TRUE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // on "dealloc" you need to release all your retained objects
 - (void) dealloc
@@ -138,6 +195,8 @@ Player *player;
 	// cocos2d will automatically release all the children (Label)
 	
 	// don't forget to call "super dealloc"
+    
+    
 	[super dealloc];
 }
 
