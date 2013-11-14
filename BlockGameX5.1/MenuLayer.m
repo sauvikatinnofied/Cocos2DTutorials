@@ -31,12 +31,52 @@ BOOL soundOn;
    {
       CGSize  winSize = [CCDirector sharedDirector].winSize;
        
+       
+       //Preloading the sound effect
+       
+       [[SimpleAudioEngine sharedEngine]preloadEffect:@"ExitReached.mp3"];
+       
       CCSprite *background = [CCSprite spriteWithFile:@"backgroundMonsters2.png"];
        
        //dirt.scale = 1.0;
        background.position = ccp(winSize.width/2, winSize.height/2);
        background.scaleX=winSize.width/background.contentSize.width;
        background.scaleY=winSize.width/background.contentSize.height;
+       
+       
+            
+       //------------------------------Working with block actions-------------------
+       
+           //creating a block action
+           id blockActionWithNoParameter=[CCCallBlock actionWithBlock:^{
+               
+               
+               printf("\nBlock action got executed");
+           }];
+           
+           //this block action will take a node as parameter
+           id blockActionWithParameter=[CCCallBlockN actionWithBlock:^(CCNode *node) {
+               CCLOG(@"The block with Node parameter is invoked with parameter %@",node);
+           }];
+           
+           //this block will be executed with an object as parameter
+           
+           id blockWithObjectParameter=[CCCallBlockO actionWithBlock:^(id object) {
+               //this
+               NSLog(@"Object type received=%@",object);
+           } object:background];//the object which is to be sent in to the block as parameter
+           
+           
+           //------------Making a  sequence of action fron these 3 Block actions-----------
+           
+           CCSequence *blockActionSequence=[CCSequence actions:blockActionWithNoParameter,blockActionWithParameter,blockWithObjectParameter, nil];
+           
+           [background runAction:blockActionSequence];
+      //----------------------------Block Action Demotration Finished-------------------------------------
+       
+    
+       
+       
        
        // and execute a Shaky3D action on sprite 2
        id shaky = [CCShaky3D actionWithDuration:4.0 size:ccg(14,10) range:4 shakeZ:NO];
@@ -122,7 +162,7 @@ BOOL soundOn;
         soundOnSelected.position=ccp(winSize.width/2,winSize.height/2);
         [self addChild:soundOnSelected];
         
-        CCFadeOut *fadeOut=[CCFadeOut actionWithDuration:3.0f];
+        CCFadeOut *fadeOut=[CCFadeOut actionWithDuration:2.0f];
         
         [soundOnSelected runAction:fadeOut];
     }
@@ -133,7 +173,7 @@ BOOL soundOn;
         soundOffSelected.position=ccp(winSize.width/2,winSize.height/2);
         [self addChild:soundOffSelected];
         
-        CCFadeOut *fadeOut=[CCFadeOut actionWithDuration:3.0f];
+        CCFadeOut *fadeOut=[CCFadeOut actionWithDuration:2.0f];
         
         [soundOffSelected runAction:fadeOut];
         [[SimpleAudioEngine sharedEngine]pauseBackgroundMusic];

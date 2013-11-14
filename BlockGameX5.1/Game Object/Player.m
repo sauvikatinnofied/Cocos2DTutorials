@@ -263,4 +263,15 @@
     
 }
 
+
+-(void)dealloc
+{
+    
+    [[CCSpriteFrameCache sharedSpriteFrameCache]removeUnusedSpriteFrames];
+    [[CCSpriteFrameCache sharedSpriteFrameCache]removeSpriteFrameByName:@"PlayerIdle.png"];
+    
+    
+    [super dealloc];
+}
+
 @end

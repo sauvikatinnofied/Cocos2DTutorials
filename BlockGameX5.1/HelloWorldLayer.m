@@ -11,6 +11,7 @@
 #import "HelloWorldLayer.h"
 #import "Player.h"
 #import "HelloWorldBackGround.h"
+#import "WaterGrassIsometricLayer.h"
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
@@ -35,7 +36,7 @@ BOOL gamePaused;
     
     
     //'adding the background'
-    HelloWorldBackGround *backGround=[HelloWorldBackGround node];
+    WaterGrassIsometricLayer *backGround=[WaterGrassIsometricLayer node];
     [scene addChild:backGround];
 	
     
@@ -70,8 +71,8 @@ BOOL gamePaused;
                                                          swallowsTouches:YES];
         
         
-        CCLayer *backGround=[HelloWorldBackGround node];
-        [self addChild:backGround];
+        //CCLayer *backGround=[HelloWorldBackGround node];
+        //[self addChild:backGround];
         
         
         player=[[Player alloc]initAtPosition:ccp(winSize.width/2, winSize.height/2)];
@@ -80,14 +81,7 @@ BOOL gamePaused;
         
         [self scheduleOnce:@selector(pauseGame:) delay:10];
        
-        CCSprite *followingSprite=[CCSprite spriteWithFile:@"YellowGem.png"];
-        followingSprite.position=ccp(player.position.x,player.position.y+30);
-        [self addChild:followingSprite];
         
-        
-        
-        //CCFollow *followaction=[CCFollow actionWithTarget:player worldBoundary:CGRectMake(0, 0, winSize.width, winSize.height)];
-        //[followingSprite runAction:followaction];
        
         
     
@@ -170,6 +164,7 @@ BOOL gamePaused;
     [[CCDirector sharedDirector] pause];
     gamePaused=TRUE;
 }
+
 
 
 

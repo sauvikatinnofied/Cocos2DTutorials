@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3660B1718338A2C00290479 /* isometric_grass_and_water.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B1518338A2C00290479 /* isometric_grass_and_water.png */; };
+		C3660B1818338A2C00290479 /* isometric_grass_and_water.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C3660B1618338A2C00290479 /* isometric_grass_and_water.tmx */; };
+		C3660B1C18338AB600290479 /* WaterGrassIsometricLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3660B1B18338AB600290479 /* WaterGrassIsometricLayer.m */; };
+		C3660B1F18339ACC00290479 /* desert.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C3660B1D18339ACC00290479 /* desert.tmx */; };
+		C3660B2018339ACC00290479 /* desert.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B1E18339ACC00290479 /* desert.png */; };
+		C3660B2218339C7100290479 /* desert.tsx in Resources */ = {isa = PBXBuildFile; fileRef = C3660B2118339C7100290479 /* desert.tsx */; };
+		C3660B251833B39E00290479 /* PlayerOnTiledMap.m in Sources */ = {isa = PBXBuildFile; fileRef = C3660B241833B39E00290479 /* PlayerOnTiledMap.m */; };
+		C3660B281833CE3B00290479 /* ParticleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3660B271833CE3B00290479 /* ParticleAction.m */; };
+		C3660B2A1833D0A300290479 /* fireworks.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B291833D0A300290479 /* fireworks.png */; };
+		C3660B2C1833D62100290479 /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B2B1833D62100290479 /* galaxy.png */; };
+		C3660B2E1833D66800290479 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B2D1833D66800290479 /* flower.png */; };
+		C3660B301833D6C000290479 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B2F1833D6C000290479 /* smoke.png */; };
+		C3660B321833D72B00290479 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B311833D72B00290479 /* sun.png */; };
+		C3660B341833D7C000290479 /* spiral.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B331833D7C000290479 /* spiral.png */; };
+		C3660B361833D80F00290479 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B351833D80F00290479 /* snow.png */; };
+		C3660B381833D87D00290479 /* raindrop.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B371833D87D00290479 /* raindrop.png */; };
+		C3660B3A1833D8BE00290479 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B391833D8BE00290479 /* explosion.png */; };
+		C3660B3C1833D95700290479 /* meteor.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B3B1833D95700290479 /* meteor.png */; };
+		C3660B3E1833DA1300290479 /* water-drop-md.png in Resources */ = {isa = PBXBuildFile; fileRef = C3660B3D1833DA1300290479 /* water-drop-md.png */; };
 		C3813B9E1832058200C7A35E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3813B9D1832058200C7A35E /* QuartzCore.framework */; };
 		C3813BA01832058200C7A35E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3813B9F1832058200C7A35E /* OpenGLES.framework */; };
 		C3813BA21832058200C7A35E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3813BA11832058200C7A35E /* OpenAL.framework */; };
@@ -180,6 +199,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3660B1518338A2C00290479 /* isometric_grass_and_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isometric_grass_and_water.png; sourceTree = "<group>"; };
+		C3660B1618338A2C00290479 /* isometric_grass_and_water.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = isometric_grass_and_water.tmx; sourceTree = "<group>"; };
+		C3660B1A18338AB600290479 /* WaterGrassIsometricLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterGrassIsometricLayer.h; sourceTree = "<group>"; };
+		C3660B1B18338AB600290479 /* WaterGrassIsometricLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterGrassIsometricLayer.m; sourceTree = "<group>"; };
+		C3660B1D18339ACC00290479 /* desert.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = desert.tmx; sourceTree = "<group>"; };
+		C3660B1E18339ACC00290479 /* desert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desert.png; sourceTree = "<group>"; };
+		C3660B2118339C7100290479 /* desert.tsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = desert.tsx; sourceTree = "<group>"; };
+		C3660B231833B39E00290479 /* PlayerOnTiledMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerOnTiledMap.h; sourceTree = "<group>"; };
+		C3660B241833B39E00290479 /* PlayerOnTiledMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerOnTiledMap.m; sourceTree = "<group>"; };
+		C3660B261833CE3B00290479 /* ParticleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleAction.h; sourceTree = "<group>"; };
+		C3660B271833CE3B00290479 /* ParticleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleAction.m; sourceTree = "<group>"; };
+		C3660B291833D0A300290479 /* fireworks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireworks.png; sourceTree = "<group>"; };
+		C3660B2B1833D62100290479 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
+		C3660B2D1833D66800290479 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		C3660B2F1833D6C000290479 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		C3660B311833D72B00290479 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		C3660B331833D7C000290479 /* spiral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spiral.png; sourceTree = "<group>"; };
+		C3660B351833D80F00290479 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		C3660B371833D87D00290479 /* raindrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raindrop.png; sourceTree = "<group>"; };
+		C3660B391833D8BE00290479 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		C3660B3B1833D95700290479 /* meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteor.png; sourceTree = "<group>"; };
+		C3660B3D1833DA1300290479 /* water-drop-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "water-drop-md.png"; sourceTree = "<group>"; };
 		C3813B9A1832058200C7A35E /* BlockGameX5.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockGameX5.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3813B9D1832058200C7A35E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C3813B9F1832058200C7A35E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -523,6 +564,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3660B1918338A5A00290479 /* Layers By me */ = {
+			isa = PBXGroup;
+			children = (
+				C3813D78183246BC00C7A35E /* MenuLayer.h */,
+				C3813D79183246BC00C7A35E /* MenuLayer.m */,
+				C3813D6F183206CF00C7A35E /* HelloWorldLayer.h */,
+				C3813D70183206CF00C7A35E /* HelloWorldLayer.m */,
+				C3813D721832263800C7A35E /* HelloWorldBackGround.h */,
+				C3813D731832263800C7A35E /* HelloWorldBackGround.m */,
+				C3660B1A18338AB600290479 /* WaterGrassIsometricLayer.h */,
+				C3660B1B18338AB600290479 /* WaterGrassIsometricLayer.m */,
+				C3660B261833CE3B00290479 /* ParticleAction.h */,
+				C3660B271833CE3B00290479 /* ParticleAction.m */,
+			);
+			name = "Layers By me";
+			sourceTree = "<group>";
+		};
 		C3813B911832058200C7A35E = {
 			isa = PBXGroup;
 			children = (
@@ -560,17 +618,12 @@
 		C3813BB11832058200C7A35E /* BlockGameX5.1 */ = {
 			isa = PBXGroup;
 			children = (
-				C3813D78183246BC00C7A35E /* MenuLayer.h */,
-				C3813D79183246BC00C7A35E /* MenuLayer.m */,
 				C3813D501832065F00C7A35E /* Game Object */,
+				C3660B1918338A5A00290479 /* Layers By me */,
 				C3813D421832058500C7A35E /* AppDelegate.h */,
 				C3813D431832058500C7A35E /* AppDelegate.m */,
-				C3813D6F183206CF00C7A35E /* HelloWorldLayer.h */,
-				C3813D70183206CF00C7A35E /* HelloWorldLayer.m */,
 				C3813D481832058500C7A35E /* IntroLayer.h */,
 				C3813D491832058500C7A35E /* IntroLayer.m */,
-				C3813D721832263800C7A35E /* HelloWorldBackGround.h */,
-				C3813D731832263800C7A35E /* HelloWorldBackGround.m */,
 				C3813BB21832058200C7A35E /* Resources */,
 				C3813BCA1832058200C7A35E /* libs */,
 				C3813D3E1832058500C7A35E /* Supporting Files */,
@@ -968,6 +1021,8 @@
 			children = (
 				C3813D511832065F00C7A35E /* Player.h */,
 				C3813D521832065F00C7A35E /* Player.m */,
+				C3660B231833B39E00290479 /* PlayerOnTiledMap.h */,
+				C3660B241833B39E00290479 /* PlayerOnTiledMap.m */,
 			);
 			path = "Game Object";
 			sourceTree = "<group>";
@@ -1045,6 +1100,22 @@
 		C3813DA5183261F500C7A35E /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				C3660B3D1833DA1300290479 /* water-drop-md.png */,
+				C3660B3B1833D95700290479 /* meteor.png */,
+				C3660B391833D8BE00290479 /* explosion.png */,
+				C3660B351833D80F00290479 /* snow.png */,
+				C3660B371833D87D00290479 /* raindrop.png */,
+				C3660B331833D7C000290479 /* spiral.png */,
+				C3660B311833D72B00290479 /* sun.png */,
+				C3660B2F1833D6C000290479 /* smoke.png */,
+				C3660B2D1833D66800290479 /* flower.png */,
+				C3660B2B1833D62100290479 /* galaxy.png */,
+				C3660B291833D0A300290479 /* fireworks.png */,
+				C3660B1D18339ACC00290479 /* desert.tmx */,
+				C3660B2118339C7100290479 /* desert.tsx */,
+				C3660B1E18339ACC00290479 /* desert.png */,
+				C3660B1518338A2C00290479 /* isometric_grass_and_water.png */,
+				C3660B1618338A2C00290479 /* isometric_grass_and_water.tmx */,
 				C3813DA61832620200C7A35E /* YellowGem.png */,
 			);
 			name = Others;
@@ -1109,14 +1180,20 @@
 				C3813D68183206A400C7A35E /* PlayerJumpLR.png in Resources */,
 				C3813D5C1832067F00C7A35E /* Layer2_2.png in Resources */,
 				C3813BB61832058200C7A35E /* Default@2x.png in Resources */,
+				C3660B1F18339ACC00290479 /* desert.tmx in Resources */,
+				C3660B2018339ACC00290479 /* desert.png in Resources */,
 				C3813BC01832058200C7A35E /* Icon-Small.png in Resources */,
 				C3813D6A183206A400C7A35E /* PlayerJumpRL.png in Resources */,
+				C3660B321833D72B00290479 /* sun.png in Resources */,
+				C3660B2218339C7100290479 /* desert.tsx in Resources */,
 				C3813BBC1832058200C7A35E /* Icon-72.png in Resources */,
 				C3813BB41832058200C7A35E /* Default.png in Resources */,
 				C3813DA418324EA700C7A35E /* ExitReached.mp3 in Resources */,
 				C3813D9F1832492200C7A35E /* WoodRetroApple_iPad_HomeScreen.jpg in Resources */,
 				C3813BBE1832058200C7A35E /* Icon-Small-50.png in Resources */,
 				C3813D981832492200C7A35E /* playButtonSelected.png in Resources */,
+				C3660B301833D6C000290479 /* smoke.png in Resources */,
+				C3660B1718338A2C00290479 /* isometric_grass_and_water.png in Resources */,
 				C3813D6E183206A400C7A35E /* PlayerRunRL.png in Resources */,
 				C3813BC91832058200C7A35E /* iTunesArtwork in Resources */,
 				C3813D971832492200C7A35E /* soundOnSelected.png in Resources */,
@@ -1124,10 +1201,15 @@
 				C3813D5A1832067F00C7A35E /* Layer0_2.png in Resources */,
 				C3813BC21832058200C7A35E /* Icon-Small@2x.png in Resources */,
 				C3813D69183206A400C7A35E /* PlayerJumpRL.plist in Resources */,
+				C3660B3A1833D8BE00290479 /* explosion.png in Resources */,
 				C3813D961832492200C7A35E /* soundOffSelected.png in Resources */,
 				C3813D5B1832067F00C7A35E /* Layer1_2.png in Resources */,
 				C3813D66183206A400C7A35E /* PlayerIdle.png in Resources */,
+				C3660B341833D7C000290479 /* spiral.png in Resources */,
+				C3660B2E1833D66800290479 /* flower.png in Resources */,
+				C3660B3E1833DA1300290479 /* water-drop-md.png in Resources */,
 				C3813D941832492200C7A35E /* monsterGreen.png in Resources */,
+				C3660B2C1833D62100290479 /* galaxy.png in Resources */,
 				C3813D8E1832492200C7A35E /* splashMonsterRed.png in Resources */,
 				C3813D931832492200C7A35E /* monsterBlue.png in Resources */,
 				C3813D6D183206A400C7A35E /* PlayerRunRL.plist in Resources */,
@@ -1135,16 +1217,21 @@
 				C3813D9C1832492200C7A35E /* background.png in Resources */,
 				C3813D9E1832492200C7A35E /* hearth.png in Resources */,
 				C3813D9A1832492200C7A35E /* soundOff.png in Resources */,
+				C3660B2A1833D0A300290479 /* fireworks.png in Resources */,
+				C3660B3C1833D95700290479 /* meteor.png in Resources */,
 				C3813D67183206A400C7A35E /* PlayerJumpLR.plist in Resources */,
 				C3813D8F1832492200C7A35E /* backgroundMonsters2.png in Resources */,
 				C3813D9D1832492200C7A35E /* MonsterSmashing.png in Resources */,
 				C3813D6C183206A400C7A35E /* PlayerRunLR.png in Resources */,
 				C3813BB81832058200C7A35E /* Default-568h@2x.png in Resources */,
+				C3660B1818338A2C00290479 /* isometric_grass_and_water.tmx in Resources */,
+				C3660B361833D80F00290479 /* snow.png in Resources */,
 				C3813D951832492200C7A35E /* pauseButton.png in Resources */,
 				C3813D991832492200C7A35E /* soundOn.png in Resources */,
 				C3813D6B183206A400C7A35E /* PlayerRunLR.plist in Resources */,
 				C3813BC61832058200C7A35E /* Icon@2x.png in Resources */,
 				C3813DA118324E5B00C7A35E /* Music.mp3 in Resources */,
+				C3660B381833D87D00290479 /* raindrop.png in Resources */,
 				C3813D911832492200C7A35E /* splashMonsterBlue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1188,6 +1275,7 @@
 				C3813C451832058300C7A35E /* CCParticleBatchNode.m in Sources */,
 				C3813C881832058400C7A35E /* CCTextureAtlas.m in Sources */,
 				C3813D361832058500C7A35E /* utility.c in Sources */,
+				C3660B1C18338AB600290479 /* WaterGrassIsometricLayer.m in Sources */,
 				C3813CE21832058400C7A35E /* CCVertex.m in Sources */,
 				C3813CE81832058400C7A35E /* NSThread+performBlock.m in Sources */,
 				C3813BEF1832058300C7A35E /* CCActionTiledGrid.m in Sources */,
@@ -1234,12 +1322,14 @@
 				C3813CEC1832058400C7A35E /* TGAlib.m in Sources */,
 				C3813BF51832058300C7A35E /* CCAnimation.m in Sources */,
 				C3813D201832058500C7A35E /* aabb.c in Sources */,
+				C3660B281833CE3B00290479 /* ParticleAction.m in Sources */,
 				C3813C971832058400C7A35E /* CCTMXObjectGroup.m in Sources */,
 				C3813CF91832058400C7A35E /* CDAudioManager.m in Sources */,
 				C3813CA61832058400C7A35E /* CCTransitionProgress.m in Sources */,
 				C3813CC91832058400C7A35E /* CCGLView.m in Sources */,
 				C3813CFD1832058400C7A35E /* CDOpenALSupport.m in Sources */,
 				C3813BE01832058300C7A35E /* CCActionInstant.m in Sources */,
+				C3660B251833B39E00290479 /* PlayerOnTiledMap.m in Sources */,
 				C3813C011832058300C7A35E /* CCClippingNode.m in Sources */,
 				C3813C851832058400C7A35E /* CCTexture2D.m in Sources */,
 				C3813C9A1832058400C7A35E /* CCTMXTiledMap.m in Sources */,
@@ -1376,6 +1466,7 @@
 				C3813D4F1832058500C7A35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

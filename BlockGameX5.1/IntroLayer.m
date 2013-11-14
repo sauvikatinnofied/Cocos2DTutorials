@@ -11,6 +11,8 @@
 #import "IntroLayer.h"
 #import "HelloWorldLayer.h"
 #import "MenuLayer.h"
+#import "WaterGrassIsometricLayer.h"
+#import "ParticleAction.h"
 
 
 #pragma mark - IntroLayer
@@ -66,7 +68,7 @@
 {
 	[super onEnter];
 	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:0.10
-                                                                                         scene:[MenuLayer scene]]];
+                                                                                         scene:[WaterGrassIsometricLayer scene]]];
     
     
 }
