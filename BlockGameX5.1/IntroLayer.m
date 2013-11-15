@@ -13,6 +13,8 @@
 #import "MenuLayer.h"
 #import "WaterGrassIsometricLayer.h"
 #import "ParticleAction.h"
+#import "GridActions.h"
+#import "LoadingScene.h"
 
 
 #pragma mark - IntroLayer
@@ -67,8 +69,10 @@
 -(void) onEnter
 {
 	[super onEnter];
+    
+    //LoadingScene *loadScene=[[LoadingScene alloc]initWithDestinationScene:[WaterGrassIsometricLayer scene] countDownMax:10];
 	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:0.10
-                                                                                         scene:[WaterGrassIsometricLayer scene]]];
+                                                                                         scene:[LoadingScene scene]]];
     
     
 }

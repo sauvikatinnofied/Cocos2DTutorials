@@ -196,6 +196,10 @@
 		C3813DA118324E5B00C7A35E /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3813DA018324E5B00C7A35E /* Music.mp3 */; };
 		C3813DA418324EA700C7A35E /* ExitReached.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3813DA318324EA700C7A35E /* ExitReached.mp3 */; };
 		C3813DA71832620200C7A35E /* YellowGem.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813DA61832620200C7A35E /* YellowGem.png */; };
+		C39D388B1834925A005C8CCC /* GridActions.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D388A1834925A005C8CCC /* GridActions.m */; };
+		C39D38B81834DA1E005C8CCC /* PlayerIdle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D38B71834DA1E005C8CCC /* PlayerIdle@2x.png */; };
+		C39D38BD18351176005C8CCC /* LoadingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D38BC18351176005C8CCC /* LoadingScene.m */; };
+		C39D38BF18351B91005C8CCC /* Number-4-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D38BE18351B91005C8CCC /* Number-4-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -541,6 +545,12 @@
 		C3813DA018324E5B00C7A35E /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
 		C3813DA318324EA700C7A35E /* ExitReached.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ExitReached.mp3; sourceTree = "<group>"; };
 		C3813DA61832620200C7A35E /* YellowGem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowGem.png; sourceTree = "<group>"; };
+		C39D38891834925A005C8CCC /* GridActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridActions.h; sourceTree = "<group>"; };
+		C39D388A1834925A005C8CCC /* GridActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridActions.m; sourceTree = "<group>"; };
+		C39D38B71834DA1E005C8CCC /* PlayerIdle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayerIdle@2x.png"; sourceTree = "<group>"; };
+		C39D38BB18351176005C8CCC /* LoadingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingScene.h; path = "Resources/Game Resources/Player/LoadingScene.h"; sourceTree = "<group>"; };
+		C39D38BC18351176005C8CCC /* LoadingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingScene.m; path = "Resources/Game Resources/Player/LoadingScene.m"; sourceTree = "<group>"; };
+		C39D38BE18351B91005C8CCC /* Number-4-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number-4-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -573,10 +583,14 @@
 				C3813D70183206CF00C7A35E /* HelloWorldLayer.m */,
 				C3813D721832263800C7A35E /* HelloWorldBackGround.h */,
 				C3813D731832263800C7A35E /* HelloWorldBackGround.m */,
+				C39D38BB18351176005C8CCC /* LoadingScene.h */,
+				C39D38BC18351176005C8CCC /* LoadingScene.m */,
 				C3660B1A18338AB600290479 /* WaterGrassIsometricLayer.h */,
 				C3660B1B18338AB600290479 /* WaterGrassIsometricLayer.m */,
 				C3660B261833CE3B00290479 /* ParticleAction.h */,
 				C3660B271833CE3B00290479 /* ParticleAction.m */,
+				C39D38891834925A005C8CCC /* GridActions.h */,
+				C39D388A1834925A005C8CCC /* GridActions.m */,
 			);
 			name = "Layers By me";
 			sourceTree = "<group>";
@@ -634,6 +648,7 @@
 		C3813BB21832058200C7A35E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C39D38BE18351B91005C8CCC /* Number-4-icon.png */,
 				C3813DA5183261F500C7A35E /* Others */,
 				C3813DA218324E6000C7A35E /* Game Music */,
 				C3813D7B183248F200C7A35E /* Menu Layer Resources */,
@@ -1050,6 +1065,7 @@
 		C3813D591832067F00C7A35E /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				C39D38B71834DA1E005C8CCC /* PlayerIdle@2x.png */,
 				C3813D5D183206A400C7A35E /* PlayerIdle.png */,
 				C3813D5E183206A400C7A35E /* PlayerJumpLR.plist */,
 				C3813D5F183206A400C7A35E /* PlayerJumpLR.png */,
@@ -1205,6 +1221,7 @@
 				C3813D961832492200C7A35E /* soundOffSelected.png in Resources */,
 				C3813D5B1832067F00C7A35E /* Layer1_2.png in Resources */,
 				C3813D66183206A400C7A35E /* PlayerIdle.png in Resources */,
+				C39D38BF18351B91005C8CCC /* Number-4-icon.png in Resources */,
 				C3660B341833D7C000290479 /* spiral.png in Resources */,
 				C3660B2E1833D66800290479 /* flower.png in Resources */,
 				C3660B3E1833DA1300290479 /* water-drop-md.png in Resources */,
@@ -1217,6 +1234,7 @@
 				C3813D9C1832492200C7A35E /* background.png in Resources */,
 				C3813D9E1832492200C7A35E /* hearth.png in Resources */,
 				C3813D9A1832492200C7A35E /* soundOff.png in Resources */,
+				C39D38B81834DA1E005C8CCC /* PlayerIdle@2x.png in Resources */,
 				C3660B2A1833D0A300290479 /* fireworks.png in Resources */,
 				C3660B3C1833D95700290479 /* meteor.png in Resources */,
 				C3813D67183206A400C7A35E /* PlayerJumpLR.plist in Resources */,
@@ -1265,6 +1283,7 @@
 				C3813D001832058400C7A35E /* CDXMacOSXSupport.m in Sources */,
 				C3813CF41832058400C7A35E /* ZipUtils.m in Sources */,
 				C3813BE61832058300C7A35E /* CCActionManager.m in Sources */,
+				C39D388B1834925A005C8CCC /* GridActions.m in Sources */,
 				C3813C4E1832058400C7A35E /* CCParticleSystemQuad.m in Sources */,
 				C3813C111832058300C7A35E /* CCDrawNode.m in Sources */,
 				C3813CA31832058400C7A35E /* CCTransitionPageTurn.m in Sources */,
@@ -1354,6 +1373,7 @@
 				C3813C611832058400C7A35E /* CCScheduler.m in Sources */,
 				C3813CB11832058400C7A35E /* CCDirectorIOS.m in Sources */,
 				C3813C331832058300C7A35E /* CCMenu.m in Sources */,
+				C39D38BD18351176005C8CCC /* LoadingScene.m in Sources */,
 				C3813D3C1832058500C7A35E /* vec4.c in Sources */,
 				C3813BFE1832058300C7A35E /* CCCamera.m in Sources */,
 				C3813BF81832058300C7A35E /* CCAnimationCache.m in Sources */,

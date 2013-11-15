@@ -51,7 +51,7 @@ CCParticleSystem *fireWorks;
     static int rand=0;
     CGSize winSize=[CCDirector sharedDirector].winSize;
     
-    switch (++rand) {
+    switch (++rand%11) {
         case 1:
         {
             fireWorks=[[CCParticleFireworks alloc]init];
@@ -146,8 +146,7 @@ CCParticleSystem *fireWorks;
             break;
     }
     
-   // CCFadeOut *fade=[CCFadeOut actionWithDuration:5.0];
-    //[fireWorks runAction:fade];
+   
     
 }
 @end
