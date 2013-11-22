@@ -10,6 +10,7 @@
 #import "HelloWorldLayer.h"
 #import "GridActions.h"
 #import "ParticleAction.h"
+#import "WaterGrassIsometricLayer.h"
 
 @implementation LoadingScene
 
@@ -44,7 +45,7 @@
     printf("\nDestination scene will be loaded now");
     
     [[CCDirector sharedDirector] replaceScene:[CCTransitionPageTurn transitionWithDuration:0.50f
-                                                                                 scene:[ParticleAction scene]]];
+                                                                                 scene:[GridActions scene]]];
 }
 
 -(void)updateCountdown:(ccTime)dt

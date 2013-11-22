@@ -169,8 +169,6 @@
 		C3813D69183206A400C7A35E /* PlayerJumpRL.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3813D60183206A400C7A35E /* PlayerJumpRL.plist */; };
 		C3813D6A183206A400C7A35E /* PlayerJumpRL.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D61183206A400C7A35E /* PlayerJumpRL.png */; };
 		C3813D6B183206A400C7A35E /* PlayerRunLR.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3813D62183206A400C7A35E /* PlayerRunLR.plist */; };
-		C3813D6C183206A400C7A35E /* PlayerRunLR.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D63183206A400C7A35E /* PlayerRunLR.png */; };
-		C3813D6D183206A400C7A35E /* PlayerRunRL.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3813D64183206A400C7A35E /* PlayerRunRL.plist */; };
 		C3813D6E183206A400C7A35E /* PlayerRunRL.png in Resources */ = {isa = PBXBuildFile; fileRef = C3813D65183206A400C7A35E /* PlayerRunRL.png */; };
 		C3813D71183206CF00C7A35E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D70183206CF00C7A35E /* HelloWorldLayer.m */; };
 		C3813D741832263800C7A35E /* HelloWorldBackGround.m in Sources */ = {isa = PBXBuildFile; fileRef = C3813D731832263800C7A35E /* HelloWorldBackGround.m */; };
@@ -200,6 +198,8 @@
 		C39D38B81834DA1E005C8CCC /* PlayerIdle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D38B71834DA1E005C8CCC /* PlayerIdle@2x.png */; };
 		C39D38BD18351176005C8CCC /* LoadingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D38BC18351176005C8CCC /* LoadingScene.m */; };
 		C39D38BF18351B91005C8CCC /* Number-4-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D38BE18351B91005C8CCC /* Number-4-icon.png */; };
+		C3A499C5183658740062F0FB /* PlayerRunLR.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A499C3183658740062F0FB /* PlayerRunLR.png */; };
+		C3A499C6183658740062F0FB /* PlayerRunRL.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3A499C4183658740062F0FB /* PlayerRunRL.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -515,8 +515,6 @@
 		C3813D60183206A400C7A35E /* PlayerJumpRL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerJumpRL.plist; sourceTree = "<group>"; };
 		C3813D61183206A400C7A35E /* PlayerJumpRL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerJumpRL.png; sourceTree = "<group>"; };
 		C3813D62183206A400C7A35E /* PlayerRunLR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerRunLR.plist; sourceTree = "<group>"; };
-		C3813D63183206A400C7A35E /* PlayerRunLR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRunLR.png; sourceTree = "<group>"; };
-		C3813D64183206A400C7A35E /* PlayerRunRL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerRunRL.plist; sourceTree = "<group>"; };
 		C3813D65183206A400C7A35E /* PlayerRunRL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRunRL.png; sourceTree = "<group>"; };
 		C3813D6F183206CF00C7A35E /* HelloWorldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		C3813D70183206CF00C7A35E /* HelloWorldLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
@@ -551,6 +549,8 @@
 		C39D38BB18351176005C8CCC /* LoadingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingScene.h; path = "Resources/Game Resources/Player/LoadingScene.h"; sourceTree = "<group>"; };
 		C39D38BC18351176005C8CCC /* LoadingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingScene.m; path = "Resources/Game Resources/Player/LoadingScene.m"; sourceTree = "<group>"; };
 		C39D38BE18351B91005C8CCC /* Number-4-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number-4-icon.png"; sourceTree = "<group>"; };
+		C3A499C3183658740062F0FB /* PlayerRunLR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayerRunLR.png; sourceTree = "<group>"; };
+		C3A499C4183658740062F0FB /* PlayerRunRL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayerRunRL.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1065,6 +1065,8 @@
 		C3813D591832067F00C7A35E /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				C3A499C3183658740062F0FB /* PlayerRunLR.png */,
+				C3A499C4183658740062F0FB /* PlayerRunRL.plist */,
 				C39D38B71834DA1E005C8CCC /* PlayerIdle@2x.png */,
 				C3813D5D183206A400C7A35E /* PlayerIdle.png */,
 				C3813D5E183206A400C7A35E /* PlayerJumpLR.plist */,
@@ -1072,8 +1074,6 @@
 				C3813D60183206A400C7A35E /* PlayerJumpRL.plist */,
 				C3813D61183206A400C7A35E /* PlayerJumpRL.png */,
 				C3813D62183206A400C7A35E /* PlayerRunLR.plist */,
-				C3813D63183206A400C7A35E /* PlayerRunLR.png */,
-				C3813D64183206A400C7A35E /* PlayerRunRL.plist */,
 				C3813D65183206A400C7A35E /* PlayerRunRL.png */,
 			);
 			path = Player;
@@ -1206,6 +1206,7 @@
 				C3813BB41832058200C7A35E /* Default.png in Resources */,
 				C3813DA418324EA700C7A35E /* ExitReached.mp3 in Resources */,
 				C3813D9F1832492200C7A35E /* WoodRetroApple_iPad_HomeScreen.jpg in Resources */,
+				C3A499C6183658740062F0FB /* PlayerRunRL.plist in Resources */,
 				C3813BBE1832058200C7A35E /* Icon-Small-50.png in Resources */,
 				C3813D981832492200C7A35E /* playButtonSelected.png in Resources */,
 				C3660B301833D6C000290479 /* smoke.png in Resources */,
@@ -1229,7 +1230,6 @@
 				C3660B2C1833D62100290479 /* galaxy.png in Resources */,
 				C3813D8E1832492200C7A35E /* splashMonsterRed.png in Resources */,
 				C3813D931832492200C7A35E /* monsterBlue.png in Resources */,
-				C3813D6D183206A400C7A35E /* PlayerRunRL.plist in Resources */,
 				C3813BBA1832058200C7A35E /* Default-Landscape~ipad.png in Resources */,
 				C3813D9C1832492200C7A35E /* background.png in Resources */,
 				C3813D9E1832492200C7A35E /* hearth.png in Resources */,
@@ -1240,7 +1240,6 @@
 				C3813D67183206A400C7A35E /* PlayerJumpLR.plist in Resources */,
 				C3813D8F1832492200C7A35E /* backgroundMonsters2.png in Resources */,
 				C3813D9D1832492200C7A35E /* MonsterSmashing.png in Resources */,
-				C3813D6C183206A400C7A35E /* PlayerRunLR.png in Resources */,
 				C3813BB81832058200C7A35E /* Default-568h@2x.png in Resources */,
 				C3660B1818338A2C00290479 /* isometric_grass_and_water.tmx in Resources */,
 				C3660B361833D80F00290479 /* snow.png in Resources */,
@@ -1250,6 +1249,7 @@
 				C3813BC61832058200C7A35E /* Icon@2x.png in Resources */,
 				C3813DA118324E5B00C7A35E /* Music.mp3 in Resources */,
 				C3660B381833D87D00290479 /* raindrop.png in Resources */,
+				C3A499C5183658740062F0FB /* PlayerRunLR.png in Resources */,
 				C3813D911832492200C7A35E /* splashMonsterBlue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
