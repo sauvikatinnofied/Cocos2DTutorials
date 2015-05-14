@@ -45,7 +45,7 @@ _Adding one underscore before and after line makes a line Italic_<br>
 	if(self = [super init]){
 		// Initializartion code goes here
 	}
-return self;
+	return self;
 }
 ```
 
@@ -54,3 +54,7 @@ return self;
 I said
 > Never become worried about the Future. Good peple always get 'good' in return.
 > Second line of the Quote.
+
+### Adding embeded images
+![Image of Yakto Cat]
+(https://octodex.github.com/images/yaktocat.png)
