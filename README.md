@@ -16,11 +16,9 @@ Cocos2DTutorials
 ###### This line is to be rendered as Header 6
 
 ### Making Text **Bold**
-__Adding two underscore before and after line makes a line bold__
-
+__Adding two underscore before and after line makes a line bold__<br>
 **Adding two astric before and after line also makes a line bold**
 
 ### Making Text *Italic*
-_Adding one underscore before and after line makes a line Italic_
-
+_Adding one underscore before and after line makes a line Italic_<br>
 *Adding one astric before and after line also makes a line Italic*
