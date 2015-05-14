@@ -36,4 +36,20 @@ _Adding one underscore before and after line makes a line Italic_<br>
 
 
 ## Inserting a link in the this README.md file
-[Link to Google Search Page](http://google.co.in)
+[Link to Google Search Page](http://google.co.ins)
+
+### Adding a code snippet
+
+<code>
+	- (instancetype)init{
+		if(self = [super init]){
+			// Initializartion code goes here
+		}
+		return self;
+	}
+</code>
+
+### Adding somde Quotes
+I said
+> Never become worried about the Future. Good peple always get 'good' in return.
+> Second line of the Quote.
