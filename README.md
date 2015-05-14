@@ -36,4 +36,4 @@ _Adding one underscore before and after line makes a line Italic_<br>
 
 
 ## Inserting a link in the this README.md file
-[Mail Me](sauvik.dolui@innofied.com)
+[Link to Google Search Page](http://google.co.in)
