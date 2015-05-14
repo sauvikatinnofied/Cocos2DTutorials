@@ -40,14 +40,15 @@ _Adding one underscore before and after line makes a line Italic_<br>
 
 ### Adding a code snippet
 
-<code>
-	- (instancetype)init{
-		if(self = [super init]){
-			// Initializartion code goes here
-		}
-		return self;
+```objective-c
+- (instancetype)init{
+	if(self = [super init]){
+		// Initializartion code goes here
 	}
-</code>
+return self;
+}
+```
+
 
 ### Adding somde Quotes
 I said
