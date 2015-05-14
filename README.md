@@ -27,9 +27,9 @@ _Adding one underscore before and after line makes a line Italic_<br>
 ## Working with ORDERED LIST
 
 1. Sample 1
-   1a. Sample 1a
-   1b. Samnple 1b
+   * Sample 1a
+   * Samnple 1b
 2. Sample 2
-   2a. Sample 2a
-   2b. Samnple 2b
+   * Sample 2a
+   * Samnple 2b
 3. Sample 3
