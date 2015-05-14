@@ -17,8 +17,10 @@ Cocos2DTutorials
 
 ### Making Text **Bold**
 __Adding two underscore before and after line makes a line bold__
+
 **Adding two astric before and after line also makes a line bold**
 
 ### Making Text *Italic*
 _Adding one underscore before and after line makes a line Italic_
+
 *Adding one astric before and after line also makes a line Italic*
