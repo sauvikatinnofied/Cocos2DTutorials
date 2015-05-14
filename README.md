@@ -53,8 +53,8 @@ _Adding one underscore before and after line makes a line Italic_<br>
 ### Adding somde Quotes
 I said
 > Never become worried about the Future. Good peple always get 'good' in return.
-> Second line of the Quote.
+> Second line of the Quote.:stuck_out_tongue_closed_eyes:
 
-### Adding embeded images
-![Image of Yakto Cat]
+### :bowtie:Adding embeded images:bowtie:
+:bowtie:![Image of Yakto Cat] :bowtie:
 (https://octodex.github.com/images/yaktocat.png)
