@@ -33,3 +33,7 @@ _Adding one underscore before and after line makes a line Italic_<br>
    * Sample 2a
    * Samnple 2b
 3. Sample 3
+
+
+## Inserting a link in the this README.md file
+[Mail Me](sauvik.dolui@innofied.com)
