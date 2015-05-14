@@ -22,3 +22,14 @@ __Adding two underscore before and after line makes a line bold__<br>
 ### Making Text *Italic*
 _Adding one underscore before and after line makes a line Italic_<br>
 *Adding one astric before and after line also makes a line Italic*
+
+
+## Working with ORDERED LIST
+
+1. Sample 1
+   1a. Sample 1a
+   1b. Samnple 1b
+2. Sample 2
+   2a. Sample 2a
+   2b. Samnple 2b
+3. Sample 3
