@@ -56,5 +56,4 @@ I said
 > Second line of the Quote.:stuck_out_tongue_closed_eyes:s
 
 ### :bowtie:Adding embeded images:bowtie:
-![Image of Yakto Cat]
-(https://octodex.github.com/images/yaktocat.png)
+![Image of Yakto Cat](https://octodex.github.com/images/yaktocat.png)
